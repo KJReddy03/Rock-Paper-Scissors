@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: #afddff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.computer {
+  position: relative;
+  display: flex;
+  top: 30px;
+  width: 1000px;
+  height: 400px;
+  background-color: #60b5ff;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.player {
+  position: relative;
+  display: flex;
+  top: 40px;
+  width: 1000px;
+  height: 400px;
+  background-color: #60b5ff;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  position: fixed;
+  bottom: 50px;
+}
+.btn {
+  margin: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #ff9149;
+}
+img {
+  width: 200px;
+  height: auto;
+}
+nav ul {
+  list-style-type: none;
+  background-color: #60b5ff;
+  height: 108vh;
+  align-content: center;
+  display: flex;
+  justify-content: space-evenly;
+  row-gap: 280px;
+  flex-wrap: wrap;
+}
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 15px;
+  display: inline-block;
+  text-align: center;
+}
+nav {
+  position: absolute;
+  left: 0px;
+  max-width: 120px;
+}
+.name {
+  position: absolute;
+  left: 30px;
+}
+.label-score {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.hidden {
+  display: none;
+}
+.winner {
+  background-color: gold;
+}
+.nxt-rnd {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+}
+.reset {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.navbar {
+  background-color: #e4e6c3;
+  align-content: center;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  height: 97vh;
+  border-radius: 15px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  row-gap: 300px;
+  flex-wrap: wrap;
+}
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 15px;
+  display: inline-block;
+  text-align: center;
+}
+nav {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  max-width: 120px;
+  font-family: trade;
+  color: #222725;
+}

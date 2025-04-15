@@ -1,0 +1,90 @@
+@font-face {
+  src: url(TradeWinds-Regular.ttf);
+  font-family: trade;
+}
+@font-face {
+  src: url(Boldonse-Regular.ttf);
+  font-family: boldonse;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f7f7f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  position: relative;
+  display: flex;
+  width: 900px;
+  height: 400px;
+  background-color: #e4e6c3;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.computer {
+  top: 30px;
+}
+.player {
+  top: 40px;
+}
+.buttons {
+  position: fixed;
+  bottom: 50px;
+}
+.btn {
+  margin: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #899878;
+}
+img {
+  width: 200px;
+  height: auto;
+}
+
+.name {
+  position: absolute;
+  font-family: trade;
+  left: 40px;
+  top: 40px;
+}
+.label-score {
+  position: absolute;
+  font-size: 15px;
+  font-family: boldonse;
+  right: 20px;
+  bottom: 20px;
+}
+.hidden {
+  display: none;
+}
+.winner {
+  background-color: gold;
+}
+.nxt-rnd {
+  background-color: #153243;
+  color: #e4e6c3;
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+}
+.reset {
+  background-color: #153243;
+  color: #e4e6c3;
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}

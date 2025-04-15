@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <nav>
+      <div class="navbar">
+        <ul>
+          <li><a>ROCK</a></li>
+          <li><a>PAPER</a></li>
+          <li><a>SCISSORS</a></li>
+        </ul>
+      </div>
+    </nav> -->
+    <main>
+      <button class="btn nxt-rnd">Next Round</button>
+      <button class="btn reset">Reset</button>
+      <section class="computer">
+        <!--computer section-->
+        <h1 class="name" id="name--0">Computer :</h1>
+        <img src="paper.png" class="img random hidden" />
+        <p class="label-score">
+          Score:
+          <span class="score score--0">14</span>
+        </p>
+      </section>
+      <section class="player">
+        <!--Player section-->
+        <h1 class="name" id="name--1">Player :</h1>
+        <img src="rock.png" class="img guess hidden" />
+        <p class="label-score">
+          Score:
+          <span class="score score--1">14</span>
+        </p>
+        <div class="buttons">
+          <button class="btn btn--rock">🪨</button>
+          <button class="btn btn--paper">📃</button>
+          <button class="btn btn--scissors">✂️</button>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
